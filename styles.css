@@ -138,23 +138,30 @@ main{
 .hero{
     display: flex;
     flex-direction: column;
-    min-height: 70vh;
+    min-height: 80vh;
     overflow: hidden;
     position: relative;
     justify-content: space-between;
     padding-inline: 30px;
     scroll-margin-top: 40px;
-    
-    /* background: red; */
+    /* background: url(images/vanja\ hs5.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-position: 80% center;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/vanja\ hs4.jpg");
 }
 
 .hero-image{
     position: absolute;
-    height: 130%;
-    width: 45%;
+    height: 160%;
+    width: 100%;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     z-index: 5;
     /* background: green; */
 
@@ -353,6 +360,17 @@ main{
     width: 28px;
     height: 28px;
 
+}
+
+.hero-video{
+    margin-top: 12px;
+    width: 100%;
+    height: 80vh;
+    background: red;
+}
+
+.hero-video video{
+    width: 100%;
 }
 
 /* -------------------------------------------------------------------- */
